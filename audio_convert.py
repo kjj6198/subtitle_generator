@@ -15,7 +15,7 @@ class AudioOperation(object):
 
     # extract audio from video
     def extract_audio(self):
-        temp_file = tempfile.NamedTemporaryFile(suffix=".wav")
+        temp_file = tempfile.NamedTemporaryFile(suffix=".wav", delete=False)
         ffmpeg_tools.ffmpeg_extract_audio(self.filename, temp_file.name)
         return temp_file.name
 
