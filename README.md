@@ -4,6 +4,13 @@ Thanks [autosub](https://github.com/agermanidis/autosub) for the awesome work!
 
 Uses google speech to text API to convert speech to subtitle
 
+## Prequire
+
+- google.cloud
+- moviepy
+- progressbar2
+- ffmpeg
+
 ## What's difference?
 
 - Rewritten in python3
