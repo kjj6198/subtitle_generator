@@ -20,6 +20,7 @@ Uses google speech to text API to convert speech to subtitle
 - custom google API Key setup (can choose restful or client)
 - integrate Progress bar
 - concurrency support (I think normal loop it's fast enough though)
+- make it a command-line based tool
 
 ## LICENSE
 
