@@ -17,6 +17,9 @@ Uses google speech to text API to convert speech to subtitle
 - provide original [autosub](https://github.com/agermanidis/autosub) functionality as possible as I can
 - compose subtitle to video clip directly using [moviepy](https://pypi.org/project/moviepy)
 - online version: maybe a aws ec2 instance or just use my raspberry pi
+- custom google API Key setup (can choose restful or client)
+- integrate Progress bar
+- concurrency support (I think normal loop it's fast enough though)
 
 ## LICENSE
 
