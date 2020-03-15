@@ -21,7 +21,8 @@ def percentile(arr, percent):
     d1 = arr[int(c)] * (k - f)
     return d0 + d1
 
-
+# original version: [autosub](https://github.com/agermanidis/autosub)
+# consider using more precise speech detection
 def find_speech_regions(filename, frame_width=4096, min_region_size=0.3, max_region_size=6):
     reader = wave.open(filename)
     sample_width = reader.getsampwidth()
